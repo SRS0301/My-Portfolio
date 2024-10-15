@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gowun+Batang:wght@400;700&family=Pacifico&family=Shadows+Into+Light&family=Sofadi+One&family=Whisper&display=swap"
+        rel="stylesheet">
+        <!-- animate CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- AOS Animations -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo2-removebg-preview.png" alt="">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skill">Skill</a></li>
+                <li class="list-items"><a class="links" href="#contacts">Contact</a></li>
+
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <div class="section-content">
+                <h1 class="animate__animated animate__backInUp" id="username">I'M Jon <span id="lname">Doe</span></h1>
+                <p id="userdetails">This is my official portfolio website to describe all <br>
+                    Details and work experience in Web Development
+                </p>
+                <a id="download" href="">Download CV</a>
+            </div>
+            <div data-aos="zoom-in-left" class="section-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/shape.png" alt="no image">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/girl.png" alt="no image">
+            </div>
+
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="zoom-in" class="aboutimg">
+                    <img class="img1" src="./images/i_love_myself-2.png" alt="no image">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur dolorum repudiandae
+                        molestias deleniti quibusdam labore inventore commodi libero, temporibus facilis nobis ut
+                        consectetur impedit, in repellendus reiciendis laboriosam odio?
+                    </p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Jon Doe</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>1111111111</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Jondoe@gmail.com</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- Skill -->
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <!-- progressbars -->
+                <div class="progressbars">
+                    <div class="progressbars">
+                        <!-- htmlbar -->
+                        <div class="bars">
+                            <h3 class="barhead">html</h3>
+                            <span class="barPercent">93%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar htmlbar"></div>
+
+                        </div>
+                        <!-- CSSbar -->
+                        <div class="bars">
+                            <h3 class="barhead">CSS</h3>
+                            <span class="barPercent">90%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar CSSbar"></div>
+
+                        </div>
+                        <!-- JSbar -->
+                        <div class="bars">
+                            <h3 class="barhead">JS</h3>
+                            <span class="barPercent">75%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar JSbar"></div>
+
+                        </div>
+                        <!-- Reactbar -->
+                        <div class="bars">
+                            <h3 class="barhead">React</h3>
+                            <span class="barPercent">79%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar Reactbar"></div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--skillimage  -->
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="skillImage">
+                    <img class="myskill" src="./images/skills.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contacts">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contact</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <!-- icons -->
+            <div class="iconcollections">
+                <!-- linked in -->
+                 <div class="icons">
+                    <a target="_blank" href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                 </div>
+                <!-- facebook -->
+                <div class="icons">
+                    <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook brands"></i></a>
+                 </div>
+                <!-- github -->
+                <div class="icons">
+                    <a target="_blank" href="https://github.com/"><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+                <!-- whatsapp -->
+                <div class="icons">
+                    <a target="_blank" href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp brands"></i></i></a>
+                 </div>
+                <!-- insta -->
+                <div class="icons">
+                    <a target="_blank" href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-square-instagram brands"></i></a>
+                 </div>
+                <!-- tweet -->
+                <div class="icons">
+                    <a target="_blank" href="https://x.com/i/flow/login"><i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+
+            </div>
+        </section>
+        <!-- Footer -->
+         <footer>
+            <p id="copyright"> &copy; My Portfolio website -sept 2024, All RightsReserved to &reg; Jon Doe</p>
+            <div class=" icons uparrow ">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+             </div>
+         </footer>
+
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
